@@ -17,18 +17,60 @@
 
 .content-container{
   background-color: blue;
+  position: absolute;
 	overflow: hidden;
 	max-width: 60em;
 	min-width: 20em;
-	float: right;
-  height:100%;
+	right: 0%;
+	top: 10%;
+  height:80%;
 }
 
 .content{
 	padding-left: 1em;
 	padding-right: 2em;
 	width: 97%;
-  height:100px;
-  overflow:auto;
+  height: 40em;
+  overflow: auto;
   background-color: green;
 }
+
+//LAYOUT -> START NAVBAR
+.navbar{
+	background-color: green;
+	height: 100%;
+	width: 10em;
+}
+//LAYOUT -> END NAVBAR
+
+
+//LAYOUT -> START FIXED POSITION
+
+.bar1, .bar2, .bar3 {
+	background-color: blue;
+	position: fixed;
+	width: 100%;
+	height: 0.6em;
+}
+
+.bar1{
+	top: 0em;
+}
+
+.bar2{
+	top: 1em;
+}
+
+.bar3{
+	bottom: 2.4em;
+}
+
+.footer {
+	position: fixed;
+	background-color: blue;
+	width: 100%;
+	height: 2em;
+	bottom: 0em;
+}
+
+//LAYOUT -> END FIXED POSITION
