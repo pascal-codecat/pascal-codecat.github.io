@@ -10,9 +10,9 @@
   position: absolute;
   overflow: hidden;
   height: 80%; 
-  width: 80%; 
+  width: 70%; 
   top: 10%; 
-  left: 10%; 
+  right: 7%; 
 }
 
 .content-container{
@@ -37,9 +37,12 @@
 
 //LAYOUT -> START NAVBAR
 .navbar{
+	position: absolute;
 	background-color: green;
-	height: 100%;
-	width: 10em;
+	height: 80%;
+	width: 17em;
+	right: 77%;
+	top: 10%;
 }
 //LAYOUT -> END NAVBAR
 
@@ -74,3 +77,9 @@
 }
 
 //LAYOUT -> END FIXED POSITION
+
+.test-block {
+	background-color: blue;
+	width: 5em;
+	height: 5em;
+}
