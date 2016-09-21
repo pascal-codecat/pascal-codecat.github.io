@@ -7,12 +7,21 @@
 
 .website-container {
   background-color: #FFCC00;
+  position: fixed;
+  height: 70%; 
+  min-width: 56em;
+  width: 80%;
+  top: 14%;
+  left: 10%;
+}
+
+.width_limit-container {
+	background-color: #0066ff;
   position: absolute;
   overflow: hidden;
-  height: 80%; 
-  width: 70%; 
-  top: 10%; 
-  right: 7%; 
+  right: 0%;
+  height: 100%; 
+  width: 70%;
 }
 
 .content-container{
@@ -39,10 +48,9 @@
 .navbar{
 	position: absolute;
 	background-color: green;
-	height: 80%;
+	z-index: 1;
 	width: 17em;
-	right: 77%;
-	top: 10%;
+	height: 100%;
 }
 //LAYOUT -> END NAVBAR
 
