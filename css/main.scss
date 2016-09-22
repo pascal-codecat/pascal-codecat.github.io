@@ -5,6 +5,13 @@
 
 // START LAYOUT
 
+.height-container {
+	position: absolute;
+	min-height: 35em;
+	height: 100%;
+	width: 100%;
+}
+
 .website-container {
   background-color: #FFCC00;
   position: absolute;
