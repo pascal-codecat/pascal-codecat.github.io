@@ -68,30 +68,34 @@
 }
 
 .nav-list{
+	background-color: #00c3c3;
+	text-align: center;
 	position: absolute;
 	width: 90%;
 	height: 12.5%;
 }
 
+.nav-list a{
+	position: relative;
+	text-decoration: none;
+	top: 37%;
+}
+
 .willkommen-l{
-	background-color: red;
-	top: 25%;
 	width: 90%;
 }
 
 .ubermich-l{
-	background-color: blue;
-	top: 50%;
+	top: 25%;
 	width: 90%;
 }
 
 .angebote-l{
-	background-color: yellow;
+	top: 50%;
 	width: 90%;
 }
 
-.info-l{
-	background-color: grey;
+.info-l{ 
 	bottom: 0%;
 	height: 25%;
 	width: 90%
