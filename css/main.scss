@@ -28,7 +28,7 @@
   overflow: hidden;
   right: 0%;
   height: 100%; 
-  width: 68%;
+  width: 67%;
 }
 
 .content-container{
@@ -57,8 +57,44 @@
 	position: absolute;
 	background-color: green;
 	z-index: 1;
-	width: 18em;
+	width: 19em;
 	height: 100%;
+}
+
+.nav-list-blank{
+	background-color: #008080;
+	width: 90%;
+	height: 100%;
+}
+
+.nav-list{
+	position: absolute;
+	width: 90%;
+	height: 12.5%;
+}
+
+.willkommen-l{
+	background-color: red;
+	top: 25%;
+	width: 90%;
+}
+
+.ubermich-l{
+	background-color: blue;
+	top: 50%;
+	width: 90%;
+}
+
+.angebote-l{
+	background-color: yellow;
+	width: 90%;
+}
+
+.info-l{
+	background-color: grey;
+	bottom: 0%;
+	height: 25%;
+	width: 90%
 }
 //LAYOUT -> END NAVBAR
 
@@ -96,11 +132,8 @@
 
 //LAYOUT -> END FIXED POSITION
 
-//END -> LAYOUT
 
-
-
-//START -> SITES
+//LAYOUT -> START SITES
 .site {
 	position: static;
 	display: inline-block;
@@ -111,21 +144,20 @@
 	margin-bottom: 0em;
 }
 
-.start {
+.willkommen-s {
 	background-color: red;
 }
 
-.aboutme {
+.ubermich-s {
 	background-color: orange;
 }
 
-//END -> SITES
-
-
-
-//TESTS
-.test-block {
-	background-color: blue;
-	width: 5em;
-	height: 5em;
+.angebote-s {
+	background-color: yellow;
 }
+
+.info-s {
+	background-color: grey;
+}
+//LAYOUT -> END SITES
+
