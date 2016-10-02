@@ -4,14 +4,17 @@ $(document).ready(function(){
 
 // START SMOOTH SCROLLING
 
-$('a[href^=#]').on('click', function(e){
-  var href = $(this).attr('href');
-  $('html, body').animate({
-    scrollTop:$(href).offset().top
-  },'slow');
-  e.preventDefault();
+$('.willkommen-l').click(function(){
+	$('.content').scrollTo('.willkommen-s',500);
 });
 
+$('.ubermich-l').click(function(){
+	$('.content').scrollTo('.ubermich-s',500);
+});
+
+$('.angebote-l').click(function(){
+	$('.content').scrollTo('.angebote-s',500);
+});
 // END SMOOTH SCROLLING
 
 });
